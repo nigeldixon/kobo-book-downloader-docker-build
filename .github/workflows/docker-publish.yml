@@ -4,7 +4,7 @@ on:
     workflow_call:
 env:
     REGISTRY: ghcr.io
-    IMAGE_NAME: nigeldixon/calibre-web
+    IMAGE_NAME: nigeldixon/kobo-book-downloader
     REPO: ${{ github.repository_owner }}/kobo-book-downloader
 jobs:
     build-and-push-image:
