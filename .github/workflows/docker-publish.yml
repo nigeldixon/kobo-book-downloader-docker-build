@@ -49,5 +49,5 @@ jobs:
                 push: true
                 tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:nightly
                 labels: ${{ steps.meta.outputs.labels }}
-                platforms: linux/amd64
+                platforms: linux/amd64,linux/arm64
                 provenance: false
